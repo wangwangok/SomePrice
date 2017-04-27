@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33619E541EB247B70032CE8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33619E531EB247B70032CE8C /* AppDelegate.swift */; };
+		33619E561EB247B70032CE8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33619E551EB247B70032CE8C /* ViewController.swift */; };
+		33619E591EB247B70032CE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33619E571EB247B70032CE8C /* Main.storyboard */; };
+		33619E5C1EB247B70032CE8C /* GFMenstrualCycle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33619E5A1EB247B70032CE8C /* GFMenstrualCycle.xcdatamodeld */; };
+		33619E5E1EB247B70032CE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33619E5D1EB247B70032CE8C /* Assets.xcassets */; };
+		33619E611EB247B70032CE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33619E5F1EB247B70032CE8C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33619E501EB247B70032CE8C /* GFMenstrualCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFMenstrualCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33619E531EB247B70032CE8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33619E551EB247B70032CE8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33619E581EB247B70032CE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33619E5B1EB247B70032CE8C /* GFMenstrualCycle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GFMenstrualCycle.xcdatamodel; sourceTree = "<group>"; };
+		33619E5D1EB247B70032CE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33619E601EB247B70032CE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33619E621EB247B70032CE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33619E4D1EB247B70032CE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33619E471EB247B70032CE8C = {
+			isa = PBXGroup;
+			children = (
+				33619E521EB247B70032CE8C /* GFMenstrualCycle */,
+				33619E511EB247B70032CE8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33619E511EB247B70032CE8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33619E501EB247B70032CE8C /* GFMenstrualCycle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33619E521EB247B70032CE8C /* GFMenstrualCycle */ = {
+			isa = PBXGroup;
+			children = (
+				33619E531EB247B70032CE8C /* AppDelegate.swift */,
+				33619E551EB247B70032CE8C /* ViewController.swift */,
+				33619E571EB247B70032CE8C /* Main.storyboard */,
+				33619E5D1EB247B70032CE8C /* Assets.xcassets */,
+				33619E5F1EB247B70032CE8C /* LaunchScreen.storyboard */,
+				33619E621EB247B70032CE8C /* Info.plist */,
+				33619E5A1EB247B70032CE8C /* GFMenstrualCycle.xcdatamodeld */,
+			);
+			path = GFMenstrualCycle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33619E4F1EB247B70032CE8C /* GFMenstrualCycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33619E651EB247B70032CE8C /* Build configuration list for PBXNativeTarget "GFMenstrualCycle" */;
+			buildPhases = (
+				33619E4C1EB247B70032CE8C /* Sources */,
+				33619E4D1EB247B70032CE8C /* Frameworks */,
+				33619E4E1EB247B70032CE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFMenstrualCycle;
+			productName = GFMenstrualCycle;
+			productReference = 33619E501EB247B70032CE8C /* GFMenstrualCycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33619E481EB247B70032CE8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Will;
+				TargetAttributes = {
+					33619E4F1EB247B70032CE8C = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 33619E4B1EB247B70032CE8C /* Build configuration list for PBXProject "GFMenstrualCycle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33619E471EB247B70032CE8C;
+			productRefGroup = 33619E511EB247B70032CE8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33619E4F1EB247B70032CE8C /* GFMenstrualCycle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33619E4E1EB247B70032CE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33619E611EB247B70032CE8C /* LaunchScreen.storyboard in Resources */,
+				33619E5E1EB247B70032CE8C /* Assets.xcassets in Resources */,
+				33619E591EB247B70032CE8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33619E4C1EB247B70032CE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33619E5C1EB247B70032CE8C /* GFMenstrualCycle.xcdatamodeld in Sources */,
+				33619E561EB247B70032CE8C /* ViewController.swift in Sources */,
+				33619E541EB247B70032CE8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33619E571EB247B70032CE8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33619E581EB247B70032CE8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33619E5F1EB247B70032CE8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33619E601EB247B70032CE8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33619E631EB247B70032CE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33619E641EB247B70032CE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33619E661EB247B70032CE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GFMenstrualCycle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wang-wang.GFMenstrualCycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		33619E671EB247B70032CE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GFMenstrualCycle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wang-wang.GFMenstrualCycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33619E4B1EB247B70032CE8C /* Build configuration list for PBXProject "GFMenstrualCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33619E631EB247B70032CE8C /* Debug */,
+				33619E641EB247B70032CE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33619E651EB247B70032CE8C /* Build configuration list for PBXNativeTarget "GFMenstrualCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33619E661EB247B70032CE8C /* Debug */,
+				33619E671EB247B70032CE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		33619E5A1EB247B70032CE8C /* GFMenstrualCycle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				33619E5B1EB247B70032CE8C /* GFMenstrualCycle.xcdatamodel */,
+			);
+			currentVersion = 33619E5B1EB247B70032CE8C /* GFMenstrualCycle.xcdatamodel */;
+			path = GFMenstrualCycle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 33619E481EB247B70032CE8C /* Project object */;
+}
