@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeChartTableViewCell" rowHeight="233" id="KGk-i7-Jjw" customClass="HomeChartTableViewCell" customModule="GFMenstrualCycle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="233"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="233"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mot-Ri-5vw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="bVj-bj-sIN"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUa-tW-oyI" userLabel="FirView">
+                        <rect key="frame" x="0.0" y="45" width="320" height="187.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="caG-W2-eMa">
+                        <rect key="frame" x="0.0" y="45" width="320" height="187.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KqC-MO-JU1" userLabel="LeftView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="187.5"/>
+                                <color key="backgroundColor" red="1" green="0.3921568627" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qf1-au-W8h" userLabel="RightView">
+                                <rect key="frame" x="320" y="0.0" width="320" height="187.5"/>
+                                <color key="backgroundColor" red="0.43921568630000002" green="0.74117647060000003" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Qf1-au-W8h" firstAttribute="top" secondItem="caG-W2-eMa" secondAttribute="top" id="LtL-cv-P7r"/>
+                            <constraint firstItem="KqC-MO-JU1" firstAttribute="top" secondItem="caG-W2-eMa" secondAttribute="top" id="MvP-Wn-o3y"/>
+                            <constraint firstItem="Qf1-au-W8h" firstAttribute="leading" secondItem="KqC-MO-JU1" secondAttribute="trailing" id="VO1-EY-22R"/>
+                            <constraint firstAttribute="bottom" secondItem="Qf1-au-W8h" secondAttribute="bottom" id="cIU-Ui-ZQc"/>
+                            <constraint firstAttribute="bottom" secondItem="KqC-MO-JU1" secondAttribute="bottom" id="mNm-Ou-Juz"/>
+                            <constraint firstAttribute="trailing" secondItem="Qf1-au-W8h" secondAttribute="trailing" id="ofK-LF-U7G"/>
+                            <constraint firstItem="KqC-MO-JU1" firstAttribute="leading" secondItem="caG-W2-eMa" secondAttribute="leading" id="uXg-ug-X7f"/>
+                            <constraint firstItem="Qf1-au-W8h" firstAttribute="width" secondItem="KqC-MO-JU1" secondAttribute="width" id="yna-mB-oOI"/>
+                        </constraints>
+                    </scrollView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="fUa-tW-oyI" secondAttribute="bottom" id="4gi-pM-Aip"/>
+                    <constraint firstItem="caG-W2-eMa" firstAttribute="top" secondItem="mot-Ri-5vw" secondAttribute="bottom" id="9Ed-DN-UXN"/>
+                    <constraint firstItem="KqC-MO-JU1" firstAttribute="height" secondItem="fUa-tW-oyI" secondAttribute="height" id="CkJ-t2-68z"/>
+                    <constraint firstItem="mot-Ri-5vw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Nft-20-Y5b"/>
+                    <constraint firstItem="caG-W2-eMa" firstAttribute="top" secondItem="mot-Ri-5vw" secondAttribute="bottom" id="PdB-4y-W5O"/>
+                    <constraint firstAttribute="trailing" secondItem="caG-W2-eMa" secondAttribute="trailing" id="Y5H-ME-r4k"/>
+                    <constraint firstAttribute="trailing" secondItem="mot-Ri-5vw" secondAttribute="trailing" id="YdS-ZH-gC2"/>
+                    <constraint firstItem="fUa-tW-oyI" firstAttribute="top" secondItem="mot-Ri-5vw" secondAttribute="bottom" id="cRU-d7-5L6"/>
+                    <constraint firstAttribute="trailing" secondItem="fUa-tW-oyI" secondAttribute="trailing" id="djP-vS-UUX"/>
+                    <constraint firstItem="fUa-tW-oyI" firstAttribute="top" secondItem="mot-Ri-5vw" secondAttribute="bottom" id="jzc-T5-rCs"/>
+                    <constraint firstAttribute="bottom" secondItem="caG-W2-eMa" secondAttribute="bottom" id="kkQ-Lh-Bdg"/>
+                    <constraint firstItem="mot-Ri-5vw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="nax-0I-uIO"/>
+                    <constraint firstItem="KqC-MO-JU1" firstAttribute="width" secondItem="fUa-tW-oyI" secondAttribute="width" id="prb-pH-fF3"/>
+                    <constraint firstItem="caG-W2-eMa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="uOU-cg-DhY"/>
+                    <constraint firstItem="fUa-tW-oyI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="vh2-Zb-Ipt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="34" y="148.5"/>
+        </tableViewCell>
+    </objects>
+</document>

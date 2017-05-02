@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeChartView" customModule="GFMenstrualCycle" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="345"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LO3-xb-Kwn">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                    <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="Jll-tL-1kh"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b7F-0C-bWG" userLabel="FirView">
+                    <rect key="frame" x="0.0" y="45" width="375" height="300"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PBe-6d-xQv">
+                    <rect key="frame" x="0.0" y="45" width="375" height="300"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VLY-sA-zQe" userLabel="LeftView">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                            <color key="backgroundColor" red="1" green="0.3921568627" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cIX-UX-fzd" userLabel="RightView">
+                            <rect key="frame" x="375" y="0.0" width="375" height="300"/>
+                            <color key="backgroundColor" red="0.43921568630000002" green="0.74117647060000003" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="cIX-UX-fzd" firstAttribute="top" secondItem="PBe-6d-xQv" secondAttribute="top" id="Dhw-4R-ZB9"/>
+                        <constraint firstItem="VLY-sA-zQe" firstAttribute="leading" secondItem="PBe-6d-xQv" secondAttribute="leading" id="Pa0-la-ces"/>
+                        <constraint firstItem="cIX-UX-fzd" firstAttribute="width" secondItem="VLY-sA-zQe" secondAttribute="width" id="Uts-Ls-tcL"/>
+                        <constraint firstItem="VLY-sA-zQe" firstAttribute="top" secondItem="PBe-6d-xQv" secondAttribute="top" id="dJ0-9r-NqM"/>
+                        <constraint firstAttribute="bottom" secondItem="VLY-sA-zQe" secondAttribute="bottom" id="gF8-j7-sDm"/>
+                        <constraint firstAttribute="trailing" secondItem="cIX-UX-fzd" secondAttribute="trailing" id="wI4-jP-QCB"/>
+                        <constraint firstAttribute="bottom" secondItem="cIX-UX-fzd" secondAttribute="bottom" id="wv3-1o-6qR"/>
+                        <constraint firstItem="cIX-UX-fzd" firstAttribute="leading" secondItem="VLY-sA-zQe" secondAttribute="trailing" id="yVN-g7-WBe"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="LO3-xb-Kwn" secondAttribute="trailing" id="BRX-UU-XoR"/>
+                <constraint firstItem="VLY-sA-zQe" firstAttribute="width" secondItem="b7F-0C-bWG" secondAttribute="width" id="Ciu-g2-AY7"/>
+                <constraint firstItem="PBe-6d-xQv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MLp-94-GMu"/>
+                <constraint firstItem="LO3-xb-Kwn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NHK-uv-Pf0"/>
+                <constraint firstAttribute="bottom" secondItem="PBe-6d-xQv" secondAttribute="bottom" id="Ue4-lp-SDP"/>
+                <constraint firstItem="b7F-0C-bWG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="brC-Mq-4cv"/>
+                <constraint firstItem="LO3-xb-Kwn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iej-mr-CF9"/>
+                <constraint firstItem="PBe-6d-xQv" firstAttribute="top" secondItem="LO3-xb-Kwn" secondAttribute="bottom" id="jBN-dh-y7F"/>
+                <constraint firstAttribute="trailing" secondItem="PBe-6d-xQv" secondAttribute="trailing" id="nTz-ag-vuc"/>
+                <constraint firstItem="b7F-0C-bWG" firstAttribute="top" secondItem="LO3-xb-Kwn" secondAttribute="bottom" id="sho-7m-YPa"/>
+                <constraint firstAttribute="trailing" secondItem="b7F-0C-bWG" secondAttribute="trailing" id="tI7-rl-H8h"/>
+                <constraint firstItem="VLY-sA-zQe" firstAttribute="height" secondItem="b7F-0C-bWG" secondAttribute="height" id="tvO-ej-PBU"/>
+                <constraint firstAttribute="bottom" secondItem="b7F-0C-bWG" secondAttribute="bottom" id="zpE-zU-zOy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="-107.5"/>
+        </view>
+    </objects>
+</document>
